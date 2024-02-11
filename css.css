@@ -1,0 +1,50 @@
+body {
+    background-image: url('mt.png');
+    background-size: cover; /* تغطية الخلفية كامل العنصر */
+    margin: 0; /* إزالة هوامش الصفحة */
+    display: flex; /* استخدام نمط عرض مرن */
+    justify-content: center; /* توسيط أفقي للعناصر */
+    align-items: center; /* توسيط عمودي للعناصر */
+    height: 100vh; /* ارتفاع الجسم يملأ الشاشة بالكامل */
+}
+
+.challenge-container {
+   width: 400px; /* عرض عنصر الـ container */
+   height: 250px; /* ارتفاع عنصر الـ container */
+    backdrop-filter: blur(20px); /* تطبيق تأثير ضباب على العنصر */
+    border: 5px solid rgba(255, 255, 255, 0.096); /* تحديد حدود للعنصر */
+    border-radius: 10px; /* تحديد شكل الزوايا للعنصر */
+    padding: 20px; /* تحديد هامش داخلي للعنصر */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للعنصر */
+    border-radius: 8px; /* تحديد شكل الزوايا للعنصر */
+    text-align: center; /* توسيط النص داخل العنصر */
+}
+
+h1 {
+   margin-top: 50px; /* هامش أعلى لعنصر h1 */
+   font-size: 40px; /* حجم الخط لعنصر h1 */
+    color: #ffffff; /* لون النص لعنصر h1 */
+}
+
+h3{
+    font-size: 25px; /* حجم الخط لعنصر h3 */
+    color: #ffffffe1; /* لون النص لعنصر h3 */
+}
+
+input {
+    padding: 8px; /* تحديد هامش داخلي لعنصر input */
+    margin-right: 5px; /* هامش يميني لعنصر input */
+    border-radius: 100vmax; /* تحديد شكل الزوايا للعنصر input */
+    border: none; /* إزالة الحدود لعنصر input */
+    font-size: 20px; /* حجم الخط لعنصر input */
+}
+
+button {
+    padding: 8px 15px; /* تحديد هامش داخلي لعنصر button */
+    background-color: #93a727; /* لون الخلفية لعنصر button */
+    border-radius: 100vmax; /* تحديد شكل الزوايا للعنصر button */
+    color: #fff; /* لون النص لعنصر button */
+    border: none; /* إزالة الحدود لعنصر button */
+    cursor: pointer; /* تغيير شكل المؤشر عند التحويم فوق عنصر button */
+    font-size: 20px; /* حجم الخط لعنصر button */
+}
